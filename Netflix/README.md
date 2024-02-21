@@ -2,6 +2,9 @@ Step by step installation or deployment of netflix clone was taken from @N4si
 
 My Docker Image - sreedhar007/netflix:latest
 
+
+![photo_6246686227730382110_y](https://github.com/sreedharm07/Devops_projects/assets/137472068/135ee2ae-4844-43cb-8c53-68d6b8e259c2)
+
 <div align="center">
   <img src="![photo_6246686227730382110_y](https://github.com/sreedharm07/Devops_projects/assets/137472068/e9939bad-6d25-4ace-9db8-01778de9546b)
 " alt="Logo" width="100%" height="100%">
