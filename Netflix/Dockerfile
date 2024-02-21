@@ -17,6 +17,3 @@ EXPOSE 80
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
 
 
-76f5b335eb1b43cc9caccab65d9f6555
-
-squ_d5b30dcf6eb2ce10e785ae5e0feab8c7e498e4ab -tocken
