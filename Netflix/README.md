@@ -35,7 +35,7 @@ My Docker Image - sreedhar007/netflix:latest
 - Clone your application's code repository onto the EC2 instance:
     
     ```bash
-    git clone https://github.com/sreedhar007/DevSecOps-Project.git
+    git clone https://github.com/sreedhar007/Devops_projects.git
     ```
     
 
