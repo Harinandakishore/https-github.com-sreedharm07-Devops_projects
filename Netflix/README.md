@@ -1,4 +1,9 @@
-Steps by step installation or deployment of netflix clone was taken from @N4si
+Step by step installation or deployment of netflix clone was taken from @N4si
+
+My Docker Image - sreedhar007/netflix:latest
+
+![Screenshot 2024-02-21 100743](https://github.com/sreedharm07/Devops_projects/assets/137472068/a6dd8cff-1925-44c2-9372-6acf76451c7a)
+
 
 <div align="center">
   <img src="./public/assets/DevSecOps.png" alt="Logo" width="100%" height="100%">
