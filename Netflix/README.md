@@ -292,7 +292,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/sreedhar007/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/sreedharm07/Devops_projects.git'
             }
         }
         stage("Sonarqube Analysis "){
