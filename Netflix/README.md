@@ -1,3 +1,5 @@
+Steps by step installation or deployment of netflix clone was taken from @N4si
+
 <div align="center">
   <img src="./public/assets/DevSecOps.png" alt="Logo" width="100%" height="100%">
 
@@ -30,7 +32,7 @@
 - Clone your application's code repository onto the EC2 instance:
     
     ```bash
-    git clone https://github.com/N4si/DevSecOps-Project.git
+    git clone https://github.com/sreedhar007/DevSecOps-Project.git
     ```
     
 
@@ -197,7 +199,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/sreedhar007/DevSecOps-Project.git'
             }
         }
         stage("Sonarqube Analysis") {
@@ -287,7 +289,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/sreedhar007/DevSecOps-Project.git'
             }
         }
         stage("Sonarqube Analysis "){
