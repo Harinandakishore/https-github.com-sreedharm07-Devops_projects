@@ -1,5 +1,10 @@
-<div align="center">
-  <img src="./public/assets/DevSecOps.png" alt="Logo" width="100%" height="100%">
+Step by step installation or deployment of netflix clone was taken from @N4si
+
+My Docker Image - sreedhar007/netflix:latest
+
+
+![photo_6246686227730382110_y](https://github.com/sreedharm07/Devops_projects/assets/137472068/135ee2ae-4844-43cb-8c53-68d6b8e259c2)
+
 
   <br>
   <a href="http://netflix-clone-with-tmdb-using-react-mui.vercel.app/">
@@ -30,7 +35,7 @@
 - Clone your application's code repository onto the EC2 instance:
     
     ```bash
-    git clone https://github.com/N4si/DevSecOps-Project.git
+    git clone https://github.com/sreedhar007/Devops_projects.git
     ```
     
 
@@ -197,7 +202,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/sreedharm07/Devops_projects.git'
             }
         }
         stage("Sonarqube Analysis") {
@@ -287,7 +292,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/sreedharm07/Devops_projects.git'
             }
         }
         stage("Sonarqube Analysis "){
@@ -326,20 +331,20 @@ pipeline{
                 script{
                    withDockerRegistry(credentialsId: 'docker', toolName: 'docker'){   
                        sh "docker build --build-arg TMDB_V3_API_KEY=<yourapikey> -t netflix ."
-                       sh "docker tag netflix nasi101/netflix:latest "
-                       sh "docker push nasi101/netflix:latest "
+                       sh "docker tag netflix sreedhar007/netflix:latest "
+                       sh "docker push sreedhar007/netflix:latest "
                     }
                 }
             }
         }
         stage("TRIVY"){
             steps{
-                sh "trivy image nasi101/netflix:latest > trivyimage.txt" 
+                sh "trivy image sreedhar007/netflix:latest > trivyimage.txt" 
             }
         }
         stage('Deploy to container'){
             steps{
-                sh 'docker run -d --name netflix -p 8081:80 nasi101/netflix:latest'
+                sh 'docker run -d --name netflix -p 8081:80 sreedhar007/netflix:latest'
             }
         }
     }
