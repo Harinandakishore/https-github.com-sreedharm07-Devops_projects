@@ -1,0 +1,51 @@
+Job Description:
+
+Torry Harris is looking for a talented DevOps Engineer. As a DevOps Engineer, you will play a crucial role in the development, deployment, and maintenance of software applications. The primary focus will be on streamlining the software delivery process, improving system reliability, and ensuring seamless collaboration between development and operations teams. You will work at the intersection of software development and IT operations, employing a combination of technical and collaborative skills to enhance the efficiency and effectiveness of the software development lifecycle.
+
+
+
+Roles & Responsibilities
+
+
+
+Design, implement, and maintain automated build and deployment pipelines.
+
+Integrate CI/CD tools to facilitate rapid and reliable software releases.
+
+Utilize IaC tools (e.g., Terraform, Ansible) to automate infrastructure provisioning and configuration.
+
+Manage and version infrastructure code to ensure consistency across environments.
+
+Implement robust monitoring solutions to detect and address system issues proactively.
+
+Set up and maintain centralized logging for quick issue resolution and system analysis.
+
+Collaborate with development, operations, and other cross-functional teams to ensure alignment of goals and objectives.
+
+Facilitate effective communication between different teams to streamline the software delivery process.
+
+Implement and enforce security best practices throughout the development and deployment process.
+
+Ensure compliance with industry standards and regulations.
+
+Manage various development, testing, and production environments.
+
+Automate the provisioning and scaling of infrastructure resources as needed.
+
+Coordinate and execute software releases, including rollback plans and versioning strategies.
+
+Collaborate with QA teams to ensure successful testing and deployment.
+
+Develop and maintain automation scripts to streamline repetitive tasks.
+
+Continuously identify and implement opportunities for process improvement.
+
+Analyze system performance and recommend improvements to optimize resource utilization.
+
+Collaborate with teams to plan for future infrastructure needs.
+
+Create and maintain comprehensive documentation for systems, processes, and procedures.
+
+Ensure knowledge transfer within the team and organization. //
+
+Mandatory SkillsDevops Tools, devops, Ci/Cd, Ansible, linux, aws, Terraform, jenkins, docker, git, shell scripting, Cloud
