@@ -46,6 +46,6 @@ Collaborate with teams to plan for future infrastructure needs.
 
 Create and maintain comprehensive documentation for systems, processes, and procedures.
 
-Ensure knowledge transfer within the team and organization. //
+Ensure knowledge transfer within the team and organization.
 
 Mandatory SkillsDevops Tools, devops, Ci/Cd, Ansible, linux, aws, Terraform, jenkins, docker, git, shell scripting, Cloud
